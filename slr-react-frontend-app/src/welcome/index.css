@@ -1,0 +1,189 @@
+.container{
+    width: 100%;
+    height: 100%;
+}
+.bg-image{
+    background-image: url("../assets/bg2.jpeg");
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+.float-login-div{
+    width: 32vw;
+    height: 77vh;
+    /* background-color: red; */
+    z-index: 999999999;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    right: 35%;
+    border-radius: 30px;
+    /* glass effect */
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.54);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.4px);
+-webkit-backdrop-filter: blur(4.4px);
+border: 1px solid rgba(255, 255, 255, 0.59);
+    /*  */
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.div-1{
+    width: 100%;
+    height: 90px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-1-logo{
+    width: 100%;
+    height: 90px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logo-title-login{
+    font-size: 2.5rem;
+    color: #427E3B;
+    font-weight: bold;
+    font-family: "Teachers", sans-serif;
+}
+.logo-title-minor-radio{
+    font-size: 1.2rem;
+    color: #427E3B;
+    font-family:  "Teachers", sans-serif;
+    font-weight: bold;
+}
+
+.div-1-input{
+    width: 90%;
+    height: 50%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #427E3B;
+    font-family:  "Teachers", sans-serif;
+    color: #427E3B;
+    font-weight: 400;
+}
+
+.div-1-input-error{
+    width: 90%;
+    height: 50%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    border-bottom: 2px solid red;
+    font-family:  "Teachers", sans-serif;
+    color: #427E3B;
+    font-weight: 400;
+}
+
+.slider-container{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #427E3B;
+    padding: 20px;
+}
+.slider-div{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.slider-float{
+    position: absolute;
+    background-color: #427E3B;
+    width: 60%;
+    height: 50px;
+    top: 6px;
+    /* right: 0px; */
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.label-normal{
+    font-size: 1.2rem;
+    color: #427E3B;
+    cursor: pointer;
+
+    
+}
+
+.label-active{
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    animation: slide 0.5s forwards;
+    left: 0px;
+
+}
+
+.radio-div{
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.radio-btn{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    accent-color: #427E3B;
+}
+
+.login-btn{
+    width: 20vw;
+    height: 60px;
+    background-color: #427E3B;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.login-txt{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    font-family:  "Teachers", sans-serif;
+
+}
+.frgt-pwd{
+    color: rgb(74, 71, 71);
+    font-weight: bold;
+    font-family:  "Teachers", sans-serif;
+    margin-top: 30px;
+}
+.frgt-pwd-minor{
+    color: #427E3B;
+    font-family:  "Teachers", sans-serif;
+    margin-top: 5px;
+    font-weight: bold;
+
+}
+::placeholder {
+    color: green;
+    opacity: 1; /* Firefox */
+  }

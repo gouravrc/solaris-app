@@ -1,0 +1,43 @@
+{
+  "Jaipur":{
+    "temperature":43,
+    "wind_direction":19,
+    "dew_point":17,
+    "pressure":1003,
+    "wind_speed":21,
+    "relative_humidity":42
+  },
+  "Darjeeling":{
+    "temperature":27,
+    "wind_direction":4,
+    "dew_point":15,
+    "pressure":1006,
+    "wind_speed":9,
+    "relative_humidity":50
+  },
+  "Kolkata":{
+    "temperature":34,
+    "wind_direction":17,
+    "dew_point":29,
+    "pressure":1000,
+    "wind_speed":26,
+    "relative_humidity":68
+  },
+  "Gulmarg":{
+    "temperature":8,
+    "wind_direction":5,
+    "dew_point":13,
+    "pressure":10012,
+    "wind_speed":13,
+    "relative_humidity":34
+  },
+  "Mumbai":{
+    "temperature":43,
+    "wind_direction":19,
+    "dew_point":17,
+    "pressure":1003,
+    "wind_speed":21,
+    "relative_humidity":42
+  }
+}
+

@@ -1,0 +1,502 @@
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex: 1;
+}
+
+.sidebar-ui {
+  width: 20vw;
+  height: 100vh;
+  background-color: #427e3b;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.logo-title {
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: bold;
+  font-family: "Teachers", sans-serif;
+}
+
+.logo-title-minor {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: bold;
+  font-family: "Teachers", sans-serif;
+  margin-left: 10px;
+}
+
+.sidebar-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+}
+
+.sidebar-div-menu {
+  width: 100%;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+.menu-txt {
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: "Teachers", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.main-screen {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  flex-wrap: initial;
+  overflow-x: hidden;
+}
+
+.logo-title-green {
+  font-size: 2.5rem;
+  color: #427e3b;
+  font-weight: bold;
+  font-family: "Teachers", sans-serif;
+}
+.logo-title-green-minor {
+  font-size: 1.5rem;
+  color: #427e3b;
+  font-family: "Teachers", sans-serif;
+}
+.application-div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-application-btn {
+  width: 11vw;
+  height: 40px;
+  background-color: #427e3b;
+  margin-top: 2%;
+  border-radius: 30px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+  position: absolute;
+  z-index: 99999999;
+  /* From https://css.glass */
+  /* From https://css.glass */
+  background: rgba(56, 49, 49, 0.26);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(56, 49, 49, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-div {
+  width: 90%;
+  height: 80%;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.modal-heading-txt {
+  font-size: 2rem;
+  color: #427e3b;
+  font-weight: bold;
+  font-family: "Teachers", sans-serif;
+}
+
+.modal-section {
+  width: 100%;
+  height: 100px;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.modal-section-div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.input-div-modal {
+  width: 100%;
+  height: 100px;
+  font-size: 1.2rem;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #427e3b;
+  color: #575d55;
+}
+
+.input-div-modal-error {
+  width: 100%;
+  height: 100px;
+  font-size: 1.2rem;
+  outline: none;
+  border: none;
+  border-bottom: 3px solid red;
+  color: #575d55;
+}
+
+.placeholder-txt {
+  color: #6d716c;
+  font-weight: bold;
+}
+
+.placeholder-txt-error {
+  color: red;
+  font-weight: bold;
+}
+
+.proceed-btn {
+  width: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding: 20px;
+  background-color: #427e3b;
+  margin: 10px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.proceed-btn-outline {
+  width: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 50px;
+  border: 2px solid #427e3b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.proceed-btn-light {
+  color: #427e3b;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.proceed-btn-outline-red {
+  width: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  /* padding: 20px; */
+  margin: 10px;
+  border-radius: 50px;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: red;
+}
+
+.proceed-btn-light-red {
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.proceed-btn-dark {
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.close-div {
+  top: 0px;
+  position: absolute;
+  right: 5%;
+  top: 10%;
+  cursor: pointer;
+}
+
+.draft-div {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  margin-top: 3%;
+  flex-direction: column;
+}
+
+.draft-div-title {
+  font-size: 2rem;
+  color: gray;
+  font-weight: bold;
+  font-family: "Teachers", sans-serif;
+}
+.draft-div-container {
+  width: 30vw;
+  height: auto;
+  margin-top: 2%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  cursor: pointer;
+  margin: 1%;
+  box-shadow: 0px 1.375px 1.935px -0.875px rgba(0, 0, 0, 0.2),
+    0px 3px 4.749px 0.375px rgba(0, 0, 0, 0.14),
+    0px 1.125px 5.748px 1px rgba(0, 0, 0, 0.12);
+}
+
+.div-row {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2%;
+  cursor: pointer;
+}
+
+.draft-headline {
+  font-size: 2.5rem;
+  font-family: "Teachers", sans-serif;
+  color: #427e3b;
+  cursor: pointer;
+}
+
+.draft-headline-grey {
+  font-size: 1.5rem;
+  font-family: "Teachers", sans-serif;
+  color: grey;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.draft-regular-txt {
+  font-size: 1.5rem;
+  font-family: "Teachers", sans-serif;
+  color: #939792;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.status-txt {
+  font-size: 1.5rem;
+  color: grey;
+}
+
+.status-txt-submitted {
+  font-size: 1.5rem;
+  color: #3478f6;
+  font-weight: bold;
+}
+
+.status-txt-inprogress {
+  font-size: 1.5rem;
+  color: #3478f6;
+  font-weight: bold;
+}
+
+.status-txt-rejected {
+  font-size: 1.5rem;
+  color: red;
+  font-weight: bold;
+}
+
+.status-txt-success {
+  font-size: 1.5rem;
+  color: #427e3b;
+  font-weight: bold;
+}
+
+.action-button{
+  color: #427e3b;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.new-status{
+  color: #3478f6;
+  font-weight: bold;
+}
+
+.evaluate-status{
+  color: rgb(193, 128, 8);
+  font-weight: bold;
+}
+.evaluate-status-sanctioned{
+  color: grey;
+  font-weight: bold;
+}
+.evaluate-status-error{
+  color: red;
+  font-weight: bold;
+}
+.evaluate-status-success{
+  color: green;
+  font-weight: bold;
+}
+.rdg-cell {
+  background-color: #fff;
+  color: #2f2f2f;
+}
+
+.info-div{
+  width: 80vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin-top: 2%;
+}
+
+.info-div-sec{
+  width: 9vw;
+  height: 9vh;
+  background-color: #D6DEED;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+  padding: 20px;
+
+}
+
+.info-div-sec-evaluation{
+  width: 9vw;
+  height: 9vh;
+  background-color: #EDE0D6;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.info-div-sec-success{
+  width: 9vw;
+  height: 9vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+  padding: 20px;
+  background-color: #E4EDD6;
+}
+
+.info-div-sec-reject{
+  background-color: #EDD6D6;
+  width: 9vw;
+  height: 9vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.new-count-txt{
+  font-size: 4rem;
+  color: #5B8BE7;
+  cursor: pointer;
+
+}
+
+.new-count-txt-minor{
+  font-size: 1rem;
+  color: #5B8BE7;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+.evaluation-count-txt{
+  font-size: 4rem;
+  color: #E1955A;
+  cursor: pointer;
+
+}
+
+.evaluation-count-txt-minor{
+  font-size: 1rem;
+  color: #E1955A;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+.success-count-txt{
+  font-size: 4rem;
+  color: #93C447;
+  cursor: pointer;
+
+}
+
+.success-count-txt-minor{
+  font-size: 1rem;
+  color: #93C447;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+.reject-count-txt{
+  font-size: 4rem;
+  color: #E37272;
+  cursor: pointer;
+
+}
+
+.reject-count-txt-minor{
+  font-size: 1rem;
+  color: #E37272;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+.bread-crumbs{
+  font-size: 1.2rem;
+  color: grey;
+  cursor: pointer;
+  margin-right: 5px;
+}
+.bread-crumbs-bold{
+  font-size: 1.3rem;
+  color: grey;
+  cursor: pointer;
+  font-weight: bolder;
+  margin-right: 5px;
+  text-decoration: underline;
+}
+::placeholder {
+  color: grey;
+  opacity: 1; /* Firefox */
+}
