@@ -85,9 +85,9 @@ The following information is provided for the purpose of sharing specific detail
     slr-spring-backend-app/src/main/java/com/gouravrc/solaris/service/ApplicationOfficerService.java
     ``` 
 
-    Line number 235. method ```getSolarPredictedValue()``` [Click here to jump in](https://github.com/gouravrc/UnisysHackHive/blob/main/slr-spring-backend-app/src/main/java/com/gouravrc/solaris/service/ApplicationOfficerService.java#L235)
+    Line number 235. method ```getSolarPredictedValue()``` [Click here to jump in](https://github.com/gouravrc/solaris-app/blob/main/slr-spring-backend-app/src/main/java/com/gouravrc/solaris/service/ApplicationOfficerService.java#L235)
 
-3. I have mocked the location details and embeded inside Java application `slr-spring-backend-app/src/main/resources/mock_weather.json` [Click here to jump in](https://github.com/gouravrc/UnisysHackHive/blob/main/slr-spring-backend-app/src/main/resources/mock_weather.json)
+3. I have mocked the location details and embeded inside Java application `slr-spring-backend-app/src/main/resources/mock_weather.json` [Click here to jump in](https://github.com/gouravrc/solaris-app/blob/main/slr-spring-backend-app/src/main/resources/mock_weather.json)
 
 4. In order to run the application locally, you need to start springboot server first to run the API service in `localhost:8080`, then you `npm run start` the UI application. 
 
