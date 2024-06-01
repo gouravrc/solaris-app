@@ -92,7 +92,7 @@ The following information is provided for the purpose of sharing specific detail
 4. In order to run the application locally, you need to start springboot server first to run the API service in `localhost:8080`, then you `npm run start` the UI application. 
 
 # Prototype Demo
-[![Little red riding hood](https://i.sstatic.net/XCRlR.png)](https://vimeo.com/3514904 "Little red riding hood - Click to Watch!")
+[![Little red riding hood]([https://i.sstatic.net/XCRlR.png])](https://www.youtube.com/watch?v=iTWEixN87CE)
 
 
 <p align="center">
