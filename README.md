@@ -92,8 +92,8 @@ The following information is provided for the purpose of sharing specific detail
 4. In order to run the application locally, you need to start springboot server first to run the API service in `localhost:8080`, then you `npm run start` the UI application. 
 
 # Prototype Demo
-[![Little red riding hood]([https://i.sstatic.net/XCRlR.png])](https://www.youtube.com/watch?v=iTWEixN87CE)
-
+<img alt="" src="https://i.ibb.co/nPtZvSv/Screenshot-2024-06-01-at-1-11-36-PM.png" />
+<a href="https://www.youtube.com/watch?v=iTWEixN87CE">Click here to watch demo</a>
 
 <p align="center">
 <img alt="PRs Welcome" src="https://forthebadge.com/images/badges/built-with-love.svg" />
